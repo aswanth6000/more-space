@@ -99,12 +99,12 @@
     
 })(jQuery);
 
-document.addEventListener('DOMContentLoaded', function () {
-    const currentPath = window.location.pathname;
-    const validRoutes = ['/index.html', '/about.html', '/contact.html', '/service.html', '/project.html', '/404.html']; 
+// document.addEventListener('DOMContentLoaded', function () {
+//     const currentPath = window.location.pathname;
+//     const validRoutes = ['/index.html', '/about.html', '/contact.html', '/service.html', '/project.html', '/404.html']; 
 
-    if (!validRoutes.includes(currentPath)) {
-        window.location.href = '/404.html';
-    }
-});
+//     if (!validRoutes.includes(currentPath)) {
+//         window.location.href = '/404.html';
+//     }
+// });
 
